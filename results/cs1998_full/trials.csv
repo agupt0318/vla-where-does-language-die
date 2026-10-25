@@ -1,0 +1,481 @@
+trial_index,task,demo,t,object,prompt,named_destination,motion_destination,condition,split,expert.L0.resid_post,expert.L4.resid_post,expert.L8.resid_post,expert.L12.resid_post,vlm.L0.resid_post,vlm.L4.resid_post,vlm.L8.resid_post,vlm.L12.resid_post
+0,put_the_bowl_on_the_plate,demo_18,34,bowl,put the bowl on the plate,the plate,the plate,trained,train,,,,,,,,
+1,put_the_bowl_on_the_plate,demo_18,34,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+2,put_the_bowl_on_the_plate,demo_18,34,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+3,put_the_bowl_on_the_plate,demo_18,34,bowl,put the bowl on the rack,the rack,the stove,novel,unused_train_episode_novel,,,,,,,,
+4,put_the_bowl_on_the_plate,demo_18,34,wine bottle,put the wine bottle on the plate,the plate,the plate,novel,unused_train_episode_novel,,,,,,,,
+5,put_the_bowl_on_the_plate,demo_18,34,wine bottle,put the wine bottle on the stove,the stove,the stove,novel,unused_train_episode_novel,,,,,,,,
+6,put_the_bowl_on_the_plate,demo_18,34,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+7,put_the_bowl_on_the_plate,demo_18,34,wine bottle,put the wine bottle on the rack,the rack,top of the cabinet,trained,train,,,,,,,,
+8,put_the_bowl_on_the_stove,demo_18,43,bowl,put the bowl on the plate,the plate,the plate,trained,train,,,,,,,,
+9,put_the_bowl_on_the_stove,demo_18,43,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+10,put_the_bowl_on_the_stove,demo_18,43,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+11,put_the_bowl_on_the_stove,demo_18,43,bowl,put the bowl on the rack,the rack,the stove,novel,unused_train_episode_novel,,,,,,,,
+12,put_the_bowl_on_the_stove,demo_18,43,wine bottle,put the wine bottle on the plate,the plate,the plate,novel,unused_train_episode_novel,,,,,,,,
+13,put_the_bowl_on_the_stove,demo_18,43,wine bottle,put the wine bottle on the stove,the stove,the stove,novel,unused_train_episode_novel,,,,,,,,
+14,put_the_bowl_on_the_stove,demo_18,43,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+15,put_the_bowl_on_the_stove,demo_18,43,wine bottle,put the wine bottle on the rack,the rack,the rack,trained,train,,,,,,,,
+16,put_the_bowl_on_top_of_the_cabinet,demo_18,32,bowl,put the bowl on the plate,the plate,the plate,trained,train,,,,,,,,
+17,put_the_bowl_on_top_of_the_cabinet,demo_18,32,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+18,put_the_bowl_on_top_of_the_cabinet,demo_18,32,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+19,put_the_bowl_on_top_of_the_cabinet,demo_18,32,bowl,put the bowl on the rack,the rack,the stove,novel,unused_train_episode_novel,,,,,,,,
+20,put_the_bowl_on_top_of_the_cabinet,demo_18,32,wine bottle,put the wine bottle on the plate,the plate,the plate,novel,unused_train_episode_novel,,,,,,,,
+21,put_the_bowl_on_top_of_the_cabinet,demo_18,32,wine bottle,put the wine bottle on the stove,the stove,the stove,novel,unused_train_episode_novel,,,,,,,,
+22,put_the_bowl_on_top_of_the_cabinet,demo_18,32,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+23,put_the_bowl_on_top_of_the_cabinet,demo_18,32,wine bottle,put the wine bottle on the rack,the rack,the rack,trained,train,,,,,,,,
+24,put_the_wine_bottle_on_the_rack,demo_18,92,bowl,put the bowl on the plate,the plate,top of the cabinet,trained,train,,,,,,,,
+25,put_the_wine_bottle_on_the_rack,demo_18,92,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+26,put_the_wine_bottle_on_the_rack,demo_18,92,bowl,put the bowl on top of the cabinet,top of the cabinet,the rack,trained,train,,,,,,,,
+27,put_the_wine_bottle_on_the_rack,demo_18,92,bowl,put the bowl on the rack,the rack,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+28,put_the_wine_bottle_on_the_rack,demo_18,92,wine bottle,put the wine bottle on the plate,the plate,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+29,put_the_wine_bottle_on_the_rack,demo_18,92,wine bottle,put the wine bottle on the stove,the stove,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+30,put_the_wine_bottle_on_the_rack,demo_18,92,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+31,put_the_wine_bottle_on_the_rack,demo_18,92,wine bottle,put the wine bottle on the rack,the rack,top of the cabinet,trained,train,,,,,,,,
+32,put_the_wine_bottle_on_top_of_the_cabinet,demo_18,47,bowl,put the bowl on the plate,the plate,the plate,trained,test,the plate,the plate,the plate,the plate,top of the cabinet,the plate,the plate,the plate
+33,put_the_wine_bottle_on_top_of_the_cabinet,demo_18,47,bowl,put the bowl on the stove,the stove,the stove,trained,test,the stove,the stove,the stove,the stove,top of the cabinet,the stove,the stove,the plate
+34,put_the_wine_bottle_on_top_of_the_cabinet,demo_18,47,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,the plate,top of the cabinet,top of the cabinet
+35,put_the_wine_bottle_on_top_of_the_cabinet,demo_18,47,bowl,put the bowl on the rack,the rack,top of the cabinet,novel,test,the stove,the rack,the plate,the plate,top of the cabinet,the plate,the plate,the plate
+36,put_the_wine_bottle_on_top_of_the_cabinet,demo_18,47,wine bottle,put the wine bottle on the plate,the plate,top of the cabinet,novel,test,the rack,the rack,the plate,the plate,top of the cabinet,the plate,the plate,the plate
+37,put_the_wine_bottle_on_top_of_the_cabinet,demo_18,47,wine bottle,put the wine bottle on the stove,the stove,top of the cabinet,novel,test,the rack,the rack,the rack,the rack,top of the cabinet,the rack,top of the cabinet,top of the cabinet
+38,put_the_wine_bottle_on_top_of_the_cabinet,demo_18,47,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet
+39,put_the_wine_bottle_on_top_of_the_cabinet,demo_18,47,wine bottle,put the wine bottle on the rack,the rack,the rack,trained,test,the rack,the rack,the rack,the rack,top of the cabinet,the rack,the rack,the rack
+40,put_the_bowl_on_the_plate,demo_18,92,bowl,put the bowl on the plate,the plate,top of the cabinet,trained,train,,,,,,,,
+41,put_the_bowl_on_the_plate,demo_18,92,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+42,put_the_bowl_on_the_plate,demo_18,92,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+43,put_the_bowl_on_the_plate,demo_18,92,bowl,put the bowl on the rack,the rack,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+44,put_the_bowl_on_the_plate,demo_18,92,wine bottle,put the wine bottle on the plate,the plate,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+45,put_the_bowl_on_the_plate,demo_18,92,wine bottle,put the wine bottle on the stove,the stove,the plate,novel,unused_train_episode_novel,,,,,,,,
+46,put_the_bowl_on_the_plate,demo_18,92,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+47,put_the_bowl_on_the_plate,demo_18,92,wine bottle,put the wine bottle on the rack,the rack,top of the cabinet,trained,train,,,,,,,,
+48,put_the_bowl_on_the_stove,demo_18,103,bowl,put the bowl on the plate,the plate,top of the cabinet,trained,train,,,,,,,,
+49,put_the_bowl_on_the_stove,demo_18,103,bowl,put the bowl on the stove,the stove,top of the cabinet,trained,train,,,,,,,,
+50,put_the_bowl_on_the_stove,demo_18,103,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+51,put_the_bowl_on_the_stove,demo_18,103,bowl,put the bowl on the rack,the rack,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+52,put_the_bowl_on_the_stove,demo_18,103,wine bottle,put the wine bottle on the plate,the plate,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+53,put_the_bowl_on_the_stove,demo_18,103,wine bottle,put the wine bottle on the stove,the stove,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+54,put_the_bowl_on_the_stove,demo_18,103,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+55,put_the_bowl_on_the_stove,demo_18,103,wine bottle,put the wine bottle on the rack,the rack,top of the cabinet,trained,train,,,,,,,,
+56,put_the_bowl_on_top_of_the_cabinet,demo_18,104,bowl,put the bowl on the plate,the plate,top of the cabinet,trained,train,,,,,,,,
+57,put_the_bowl_on_top_of_the_cabinet,demo_18,104,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+58,put_the_bowl_on_top_of_the_cabinet,demo_18,104,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+59,put_the_bowl_on_top_of_the_cabinet,demo_18,104,bowl,put the bowl on the rack,the rack,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+60,put_the_bowl_on_top_of_the_cabinet,demo_18,104,wine bottle,put the wine bottle on the plate,the plate,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+61,put_the_bowl_on_top_of_the_cabinet,demo_18,104,wine bottle,put the wine bottle on the stove,the stove,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+62,put_the_bowl_on_top_of_the_cabinet,demo_18,104,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+63,put_the_bowl_on_top_of_the_cabinet,demo_18,104,wine bottle,put the wine bottle on the rack,the rack,top of the cabinet,trained,train,,,,,,,,
+64,put_the_wine_bottle_on_the_rack,demo_18,183,bowl,put the bowl on the plate,the plate,top of the cabinet,trained,train,,,,,,,,
+65,put_the_wine_bottle_on_the_rack,demo_18,183,bowl,put the bowl on the stove,the stove,the rack,trained,train,,,,,,,,
+66,put_the_wine_bottle_on_the_rack,demo_18,183,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+67,put_the_wine_bottle_on_the_rack,demo_18,183,bowl,put the bowl on the rack,the rack,the rack,novel,unused_train_episode_novel,,,,,,,,
+68,put_the_wine_bottle_on_the_rack,demo_18,183,wine bottle,put the wine bottle on the plate,the plate,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+69,put_the_wine_bottle_on_the_rack,demo_18,183,wine bottle,put the wine bottle on the stove,the stove,the rack,novel,unused_train_episode_novel,,,,,,,,
+70,put_the_wine_bottle_on_the_rack,demo_18,183,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+71,put_the_wine_bottle_on_the_rack,demo_18,183,wine bottle,put the wine bottle on the rack,the rack,the rack,trained,train,,,,,,,,
+72,put_the_wine_bottle_on_top_of_the_cabinet,demo_18,128,bowl,put the bowl on the plate,the plate,top of the cabinet,trained,test,the plate,the plate,the plate,the plate,the stove,the plate,the plate,the plate
+73,put_the_wine_bottle_on_top_of_the_cabinet,demo_18,128,bowl,put the bowl on the stove,the stove,the stove,trained,test,the stove,the stove,the stove,the stove,the stove,the stove,the stove,the stove
+74,put_the_wine_bottle_on_top_of_the_cabinet,demo_18,128,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,the stove,the stove,top of the cabinet,top of the cabinet
+75,put_the_wine_bottle_on_top_of_the_cabinet,demo_18,128,bowl,put the bowl on the rack,the rack,top of the cabinet,novel,test,the stove,the rack,the plate,the plate,the stove,the stove,the stove,the rack
+76,put_the_wine_bottle_on_top_of_the_cabinet,demo_18,128,wine bottle,put the wine bottle on the plate,the plate,top of the cabinet,novel,test,the rack,the plate,the plate,the plate,the stove,the plate,the plate,the rack
+77,put_the_wine_bottle_on_top_of_the_cabinet,demo_18,128,wine bottle,put the wine bottle on the stove,the stove,top of the cabinet,novel,test,the rack,the rack,the rack,the rack,the stove,the stove,the stove,the rack
+78,put_the_wine_bottle_on_top_of_the_cabinet,demo_18,128,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,the stove,the stove,top of the cabinet,top of the cabinet
+79,put_the_wine_bottle_on_top_of_the_cabinet,demo_18,128,wine bottle,put the wine bottle on the rack,the rack,top of the cabinet,trained,test,the rack,the rack,the rack,the rack,the stove,the stove,the rack,the rack
+80,put_the_bowl_on_the_plate,demo_23,49,bowl,put the bowl on the plate,the plate,the plate,trained,train,,,,,,,,
+81,put_the_bowl_on_the_plate,demo_23,49,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+82,put_the_bowl_on_the_plate,demo_23,49,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+83,put_the_bowl_on_the_plate,demo_23,49,bowl,put the bowl on the rack,the rack,the stove,novel,unused_train_episode_novel,,,,,,,,
+84,put_the_bowl_on_the_plate,demo_23,49,wine bottle,put the wine bottle on the plate,the plate,the plate,novel,unused_train_episode_novel,,,,,,,,
+85,put_the_bowl_on_the_plate,demo_23,49,wine bottle,put the wine bottle on the stove,the stove,the stove,novel,unused_train_episode_novel,,,,,,,,
+86,put_the_bowl_on_the_plate,demo_23,49,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+87,put_the_bowl_on_the_plate,demo_23,49,wine bottle,put the wine bottle on the rack,the rack,the rack,trained,train,,,,,,,,
+88,put_the_bowl_on_the_stove,demo_23,42,bowl,put the bowl on the plate,the plate,the plate,trained,train,,,,,,,,
+89,put_the_bowl_on_the_stove,demo_23,42,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+90,put_the_bowl_on_the_stove,demo_23,42,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+91,put_the_bowl_on_the_stove,demo_23,42,bowl,put the bowl on the rack,the rack,the stove,novel,unused_train_episode_novel,,,,,,,,
+92,put_the_bowl_on_the_stove,demo_23,42,wine bottle,put the wine bottle on the plate,the plate,the plate,novel,unused_train_episode_novel,,,,,,,,
+93,put_the_bowl_on_the_stove,demo_23,42,wine bottle,put the wine bottle on the stove,the stove,the stove,novel,unused_train_episode_novel,,,,,,,,
+94,put_the_bowl_on_the_stove,demo_23,42,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+95,put_the_bowl_on_the_stove,demo_23,42,wine bottle,put the wine bottle on the rack,the rack,the rack,trained,train,,,,,,,,
+96,put_the_bowl_on_top_of_the_cabinet,demo_23,29,bowl,put the bowl on the plate,the plate,the plate,trained,test,the plate,the plate,the plate,the plate,the plate,the plate,the plate,the plate
+97,put_the_bowl_on_top_of_the_cabinet,demo_23,29,bowl,put the bowl on the stove,the stove,the stove,trained,test,the stove,the stove,the stove,the stove,the plate,the stove,the stove,the stove
+98,put_the_bowl_on_top_of_the_cabinet,demo_23,29,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet
+99,put_the_bowl_on_top_of_the_cabinet,demo_23,29,bowl,put the bowl on the rack,the rack,the stove,novel,test,the stove,the rack,the rack,the rack,the plate,the plate,the rack,the rack
+100,put_the_bowl_on_top_of_the_cabinet,demo_23,29,wine bottle,put the wine bottle on the plate,the plate,the plate,novel,test,the plate,the plate,the plate,the plate,the plate,the plate,the plate,top of the cabinet
+101,put_the_bowl_on_top_of_the_cabinet,demo_23,29,wine bottle,put the wine bottle on the stove,the stove,top of the cabinet,novel,test,the rack,the rack,the rack,the rack,the plate,top of the cabinet,top of the cabinet,top of the cabinet
+102,put_the_bowl_on_top_of_the_cabinet,demo_23,29,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet
+103,put_the_bowl_on_top_of_the_cabinet,demo_23,29,wine bottle,put the wine bottle on the rack,the rack,top of the cabinet,trained,test,the rack,the rack,the rack,the rack,the plate,top of the cabinet,the rack,the rack
+104,put_the_wine_bottle_on_the_rack,demo_23,110,bowl,put the bowl on the plate,the plate,top of the cabinet,trained,train,,,,,,,,
+105,put_the_wine_bottle_on_the_rack,demo_23,110,bowl,put the bowl on the stove,the stove,top of the cabinet,trained,train,,,,,,,,
+106,put_the_wine_bottle_on_the_rack,demo_23,110,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+107,put_the_wine_bottle_on_the_rack,demo_23,110,bowl,put the bowl on the rack,the rack,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+108,put_the_wine_bottle_on_the_rack,demo_23,110,wine bottle,put the wine bottle on the plate,the plate,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+109,put_the_wine_bottle_on_the_rack,demo_23,110,wine bottle,put the wine bottle on the stove,the stove,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+110,put_the_wine_bottle_on_the_rack,demo_23,110,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+111,put_the_wine_bottle_on_the_rack,demo_23,110,wine bottle,put the wine bottle on the rack,the rack,top of the cabinet,trained,train,,,,,,,,
+112,put_the_wine_bottle_on_top_of_the_cabinet,demo_23,49,bowl,put the bowl on the plate,the plate,the plate,trained,train,,,,,,,,
+113,put_the_wine_bottle_on_top_of_the_cabinet,demo_23,49,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+114,put_the_wine_bottle_on_top_of_the_cabinet,demo_23,49,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+115,put_the_wine_bottle_on_top_of_the_cabinet,demo_23,49,bowl,put the bowl on the rack,the rack,the plate,novel,unused_train_episode_novel,,,,,,,,
+116,put_the_wine_bottle_on_top_of_the_cabinet,demo_23,49,wine bottle,put the wine bottle on the plate,the plate,the plate,novel,unused_train_episode_novel,,,,,,,,
+117,put_the_wine_bottle_on_top_of_the_cabinet,demo_23,49,wine bottle,put the wine bottle on the stove,the stove,the plate,novel,unused_train_episode_novel,,,,,,,,
+118,put_the_wine_bottle_on_top_of_the_cabinet,demo_23,49,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+119,put_the_wine_bottle_on_top_of_the_cabinet,demo_23,49,wine bottle,put the wine bottle on the rack,the rack,top of the cabinet,trained,train,,,,,,,,
+120,put_the_bowl_on_the_plate,demo_23,106,bowl,put the bowl on the plate,the plate,top of the cabinet,trained,train,,,,,,,,
+121,put_the_bowl_on_the_plate,demo_23,106,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+122,put_the_bowl_on_the_plate,demo_23,106,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+123,put_the_bowl_on_the_plate,demo_23,106,bowl,put the bowl on the rack,the rack,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+124,put_the_bowl_on_the_plate,demo_23,106,wine bottle,put the wine bottle on the plate,the plate,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+125,put_the_bowl_on_the_plate,demo_23,106,wine bottle,put the wine bottle on the stove,the stove,the stove,novel,unused_train_episode_novel,,,,,,,,
+126,put_the_bowl_on_the_plate,demo_23,106,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+127,put_the_bowl_on_the_plate,demo_23,106,wine bottle,put the wine bottle on the rack,the rack,top of the cabinet,trained,train,,,,,,,,
+128,put_the_bowl_on_the_stove,demo_23,99,bowl,put the bowl on the plate,the plate,the stove,trained,train,,,,,,,,
+129,put_the_bowl_on_the_stove,demo_23,99,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+130,put_the_bowl_on_the_stove,demo_23,99,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+131,put_the_bowl_on_the_stove,demo_23,99,bowl,put the bowl on the rack,the rack,the stove,novel,unused_train_episode_novel,,,,,,,,
+132,put_the_bowl_on_the_stove,demo_23,99,wine bottle,put the wine bottle on the plate,the plate,the stove,novel,unused_train_episode_novel,,,,,,,,
+133,put_the_bowl_on_the_stove,demo_23,99,wine bottle,put the wine bottle on the stove,the stove,the stove,novel,unused_train_episode_novel,,,,,,,,
+134,put_the_bowl_on_the_stove,demo_23,99,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,the stove,trained,train,,,,,,,,
+135,put_the_bowl_on_the_stove,demo_23,99,wine bottle,put the wine bottle on the rack,the rack,the rack,trained,train,,,,,,,,
+136,put_the_bowl_on_top_of_the_cabinet,demo_23,90,bowl,put the bowl on the plate,the plate,top of the cabinet,trained,test,the plate,the plate,the plate,the plate,the plate,the plate,the plate,the plate
+137,put_the_bowl_on_top_of_the_cabinet,demo_23,90,bowl,put the bowl on the stove,the stove,the stove,trained,test,the stove,the stove,the stove,the stove,the plate,the stove,the stove,the stove
+138,put_the_bowl_on_top_of_the_cabinet,demo_23,90,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,the plate,the stove,the plate,the plate
+139,put_the_bowl_on_top_of_the_cabinet,demo_23,90,bowl,put the bowl on the rack,the rack,top of the cabinet,novel,test,the stove,the rack,the stove,the stove,the plate,the stove,the plate,the plate
+140,put_the_bowl_on_top_of_the_cabinet,demo_23,90,wine bottle,put the wine bottle on the plate,the plate,top of the cabinet,novel,test,the plate,the plate,the plate,the rack,the plate,the plate,the plate,the plate
+141,put_the_bowl_on_top_of_the_cabinet,demo_23,90,wine bottle,put the wine bottle on the stove,the stove,top of the cabinet,novel,test,the rack,the stove,the stove,the stove,the plate,the stove,the rack,the stove
+142,put_the_bowl_on_top_of_the_cabinet,demo_23,90,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,the plate,the stove,the rack,top of the cabinet
+143,put_the_bowl_on_top_of_the_cabinet,demo_23,90,wine bottle,put the wine bottle on the rack,the rack,top of the cabinet,trained,test,the rack,the rack,the rack,the rack,the plate,the rack,the rack,the rack
+144,put_the_wine_bottle_on_the_rack,demo_23,203,bowl,put the bowl on the plate,the plate,top of the cabinet,trained,train,,,,,,,,
+145,put_the_wine_bottle_on_the_rack,demo_23,203,bowl,put the bowl on the stove,the stove,the rack,trained,train,,,,,,,,
+146,put_the_wine_bottle_on_the_rack,demo_23,203,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+147,put_the_wine_bottle_on_the_rack,demo_23,203,bowl,put the bowl on the rack,the rack,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+148,put_the_wine_bottle_on_the_rack,demo_23,203,wine bottle,put the wine bottle on the plate,the plate,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+149,put_the_wine_bottle_on_the_rack,demo_23,203,wine bottle,put the wine bottle on the stove,the stove,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+150,put_the_wine_bottle_on_the_rack,demo_23,203,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+151,put_the_wine_bottle_on_the_rack,demo_23,203,wine bottle,put the wine bottle on the rack,the rack,top of the cabinet,trained,train,,,,,,,,
+152,put_the_wine_bottle_on_top_of_the_cabinet,demo_23,119,bowl,put the bowl on the plate,the plate,the stove,trained,train,,,,,,,,
+153,put_the_wine_bottle_on_top_of_the_cabinet,demo_23,119,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+154,put_the_wine_bottle_on_top_of_the_cabinet,demo_23,119,bowl,put the bowl on top of the cabinet,top of the cabinet,the stove,trained,train,,,,,,,,
+155,put_the_wine_bottle_on_top_of_the_cabinet,demo_23,119,bowl,put the bowl on the rack,the rack,the stove,novel,unused_train_episode_novel,,,,,,,,
+156,put_the_wine_bottle_on_top_of_the_cabinet,demo_23,119,wine bottle,put the wine bottle on the plate,the plate,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+157,put_the_wine_bottle_on_top_of_the_cabinet,demo_23,119,wine bottle,put the wine bottle on the stove,the stove,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+158,put_the_wine_bottle_on_top_of_the_cabinet,demo_23,119,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+159,put_the_wine_bottle_on_top_of_the_cabinet,demo_23,119,wine bottle,put the wine bottle on the rack,the rack,top of the cabinet,trained,train,,,,,,,,
+160,put_the_bowl_on_the_plate,demo_36,32,bowl,put the bowl on the plate,the plate,the plate,trained,train,,,,,,,,
+161,put_the_bowl_on_the_plate,demo_36,32,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+162,put_the_bowl_on_the_plate,demo_36,32,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+163,put_the_bowl_on_the_plate,demo_36,32,bowl,put the bowl on the rack,the rack,the stove,novel,unused_train_episode_novel,,,,,,,,
+164,put_the_bowl_on_the_plate,demo_36,32,wine bottle,put the wine bottle on the plate,the plate,the plate,novel,unused_train_episode_novel,,,,,,,,
+165,put_the_bowl_on_the_plate,demo_36,32,wine bottle,put the wine bottle on the stove,the stove,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+166,put_the_bowl_on_the_plate,demo_36,32,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+167,put_the_bowl_on_the_plate,demo_36,32,wine bottle,put the wine bottle on the rack,the rack,top of the cabinet,trained,train,,,,,,,,
+168,put_the_bowl_on_the_stove,demo_36,42,bowl,put the bowl on the plate,the plate,the plate,trained,train,,,,,,,,
+169,put_the_bowl_on_the_stove,demo_36,42,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+170,put_the_bowl_on_the_stove,demo_36,42,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+171,put_the_bowl_on_the_stove,demo_36,42,bowl,put the bowl on the rack,the rack,the stove,novel,unused_train_episode_novel,,,,,,,,
+172,put_the_bowl_on_the_stove,demo_36,42,wine bottle,put the wine bottle on the plate,the plate,the plate,novel,unused_train_episode_novel,,,,,,,,
+173,put_the_bowl_on_the_stove,demo_36,42,wine bottle,put the wine bottle on the stove,the stove,the stove,novel,unused_train_episode_novel,,,,,,,,
+174,put_the_bowl_on_the_stove,demo_36,42,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+175,put_the_bowl_on_the_stove,demo_36,42,wine bottle,put the wine bottle on the rack,the rack,top of the cabinet,trained,train,,,,,,,,
+176,put_the_bowl_on_top_of_the_cabinet,demo_36,27,bowl,put the bowl on the plate,the plate,the plate,trained,train,,,,,,,,
+177,put_the_bowl_on_top_of_the_cabinet,demo_36,27,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+178,put_the_bowl_on_top_of_the_cabinet,demo_36,27,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+179,put_the_bowl_on_top_of_the_cabinet,demo_36,27,bowl,put the bowl on the rack,the rack,the stove,novel,unused_train_episode_novel,,,,,,,,
+180,put_the_bowl_on_top_of_the_cabinet,demo_36,27,wine bottle,put the wine bottle on the plate,the plate,the plate,novel,unused_train_episode_novel,,,,,,,,
+181,put_the_bowl_on_top_of_the_cabinet,demo_36,27,wine bottle,put the wine bottle on the stove,the stove,the stove,novel,unused_train_episode_novel,,,,,,,,
+182,put_the_bowl_on_top_of_the_cabinet,demo_36,27,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+183,put_the_bowl_on_top_of_the_cabinet,demo_36,27,wine bottle,put the wine bottle on the rack,the rack,top of the cabinet,trained,train,,,,,,,,
+184,put_the_wine_bottle_on_the_rack,demo_36,69,bowl,put the bowl on the plate,the plate,top of the cabinet,trained,test,the plate,the plate,the plate,the plate,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet
+185,put_the_wine_bottle_on_the_rack,demo_36,69,bowl,put the bowl on the stove,the stove,the stove,trained,test,the stove,the stove,the stove,the stove,top of the cabinet,the stove,top of the cabinet,top of the cabinet
+186,put_the_wine_bottle_on_the_rack,demo_36,69,bowl,put the bowl on top of the cabinet,top of the cabinet,the rack,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet
+187,put_the_wine_bottle_on_the_rack,demo_36,69,bowl,put the bowl on the rack,the rack,top of the cabinet,novel,test,the plate,the rack,the plate,the stove,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet
+188,put_the_wine_bottle_on_the_rack,demo_36,69,wine bottle,put the wine bottle on the plate,the plate,top of the cabinet,novel,test,the plate,the rack,the plate,the plate,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet
+189,put_the_wine_bottle_on_the_rack,demo_36,69,wine bottle,put the wine bottle on the stove,the stove,the rack,novel,test,the rack,the rack,the stove,the stove,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet
+190,put_the_wine_bottle_on_the_rack,demo_36,69,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet
+191,put_the_wine_bottle_on_the_rack,demo_36,69,wine bottle,put the wine bottle on the rack,the rack,the rack,trained,test,the rack,the rack,the rack,the rack,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet
+192,put_the_wine_bottle_on_top_of_the_cabinet,demo_36,37,bowl,put the bowl on the plate,the plate,the plate,trained,train,,,,,,,,
+193,put_the_wine_bottle_on_top_of_the_cabinet,demo_36,37,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+194,put_the_wine_bottle_on_top_of_the_cabinet,demo_36,37,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+195,put_the_wine_bottle_on_top_of_the_cabinet,demo_36,37,bowl,put the bowl on the rack,the rack,the plate,novel,unused_train_episode_novel,,,,,,,,
+196,put_the_wine_bottle_on_top_of_the_cabinet,demo_36,37,wine bottle,put the wine bottle on the plate,the plate,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+197,put_the_wine_bottle_on_top_of_the_cabinet,demo_36,37,wine bottle,put the wine bottle on the stove,the stove,the stove,novel,unused_train_episode_novel,,,,,,,,
+198,put_the_wine_bottle_on_top_of_the_cabinet,demo_36,37,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+199,put_the_wine_bottle_on_top_of_the_cabinet,demo_36,37,wine bottle,put the wine bottle on the rack,the rack,the stove,trained,train,,,,,,,,
+200,put_the_bowl_on_the_plate,demo_36,78,bowl,put the bowl on the plate,the plate,the plate,trained,train,,,,,,,,
+201,put_the_bowl_on_the_plate,demo_36,78,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+202,put_the_bowl_on_the_plate,demo_36,78,bowl,put the bowl on top of the cabinet,top of the cabinet,the plate,trained,train,,,,,,,,
+203,put_the_bowl_on_the_plate,demo_36,78,bowl,put the bowl on the rack,the rack,the plate,novel,unused_train_episode_novel,,,,,,,,
+204,put_the_bowl_on_the_plate,demo_36,78,wine bottle,put the wine bottle on the plate,the plate,the plate,novel,unused_train_episode_novel,,,,,,,,
+205,put_the_bowl_on_the_plate,demo_36,78,wine bottle,put the wine bottle on the stove,the stove,the stove,novel,unused_train_episode_novel,,,,,,,,
+206,put_the_bowl_on_the_plate,demo_36,78,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+207,put_the_bowl_on_the_plate,demo_36,78,wine bottle,put the wine bottle on the rack,the rack,the plate,trained,train,,,,,,,,
+208,put_the_bowl_on_the_stove,demo_36,98,bowl,put the bowl on the plate,the plate,the plate,trained,train,,,,,,,,
+209,put_the_bowl_on_the_stove,demo_36,98,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+210,put_the_bowl_on_the_stove,demo_36,98,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+211,put_the_bowl_on_the_stove,demo_36,98,bowl,put the bowl on the rack,the rack,the stove,novel,unused_train_episode_novel,,,,,,,,
+212,put_the_bowl_on_the_stove,demo_36,98,wine bottle,put the wine bottle on the plate,the plate,the plate,novel,unused_train_episode_novel,,,,,,,,
+213,put_the_bowl_on_the_stove,demo_36,98,wine bottle,put the wine bottle on the stove,the stove,the stove,novel,unused_train_episode_novel,,,,,,,,
+214,put_the_bowl_on_the_stove,demo_36,98,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+215,put_the_bowl_on_the_stove,demo_36,98,wine bottle,put the wine bottle on the rack,the rack,the rack,trained,train,,,,,,,,
+216,put_the_bowl_on_top_of_the_cabinet,demo_36,96,bowl,put the bowl on the plate,the plate,top of the cabinet,trained,train,,,,,,,,
+217,put_the_bowl_on_top_of_the_cabinet,demo_36,96,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+218,put_the_bowl_on_top_of_the_cabinet,demo_36,96,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+219,put_the_bowl_on_top_of_the_cabinet,demo_36,96,bowl,put the bowl on the rack,the rack,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+220,put_the_bowl_on_top_of_the_cabinet,demo_36,96,wine bottle,put the wine bottle on the plate,the plate,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+221,put_the_bowl_on_top_of_the_cabinet,demo_36,96,wine bottle,put the wine bottle on the stove,the stove,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+222,put_the_bowl_on_top_of_the_cabinet,demo_36,96,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+223,put_the_bowl_on_top_of_the_cabinet,demo_36,96,wine bottle,put the wine bottle on the rack,the rack,top of the cabinet,trained,train,,,,,,,,
+224,put_the_wine_bottle_on_the_rack,demo_36,152,bowl,put the bowl on the plate,the plate,the rack,trained,test,the plate,the plate,the plate,the plate,the rack,the plate,the plate,the plate
+225,put_the_wine_bottle_on_the_rack,demo_36,152,bowl,put the bowl on the stove,the stove,the stove,trained,test,the stove,the stove,the stove,the stove,the rack,the plate,top of the cabinet,top of the cabinet
+226,put_the_wine_bottle_on_the_rack,demo_36,152,bowl,put the bowl on top of the cabinet,top of the cabinet,the rack,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,the rack,top of the cabinet,top of the cabinet,top of the cabinet
+227,put_the_wine_bottle_on_the_rack,demo_36,152,bowl,put the bowl on the rack,the rack,the rack,novel,test,the stove,the plate,the plate,the plate,the rack,the plate,top of the cabinet,top of the cabinet
+228,put_the_wine_bottle_on_the_rack,demo_36,152,wine bottle,put the wine bottle on the plate,the plate,the rack,novel,test,the plate,the rack,the plate,the rack,the rack,the plate,the plate,top of the cabinet
+229,put_the_wine_bottle_on_the_rack,demo_36,152,wine bottle,put the wine bottle on the stove,the stove,the rack,novel,test,the rack,the rack,the stove,the rack,the rack,the plate,top of the cabinet,top of the cabinet
+230,put_the_wine_bottle_on_the_rack,demo_36,152,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,the rack,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,the rack,top of the cabinet,top of the cabinet,top of the cabinet
+231,put_the_wine_bottle_on_the_rack,demo_36,152,wine bottle,put the wine bottle on the rack,the rack,the rack,trained,test,the rack,the rack,the rack,the rack,the rack,the plate,top of the cabinet,top of the cabinet
+232,put_the_wine_bottle_on_top_of_the_cabinet,demo_36,104,bowl,put the bowl on the plate,the plate,the stove,trained,train,,,,,,,,
+233,put_the_wine_bottle_on_top_of_the_cabinet,demo_36,104,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+234,put_the_wine_bottle_on_top_of_the_cabinet,demo_36,104,bowl,put the bowl on top of the cabinet,top of the cabinet,the stove,trained,train,,,,,,,,
+235,put_the_wine_bottle_on_top_of_the_cabinet,demo_36,104,bowl,put the bowl on the rack,the rack,the stove,novel,unused_train_episode_novel,,,,,,,,
+236,put_the_wine_bottle_on_top_of_the_cabinet,demo_36,104,wine bottle,put the wine bottle on the plate,the plate,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+237,put_the_wine_bottle_on_top_of_the_cabinet,demo_36,104,wine bottle,put the wine bottle on the stove,the stove,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+238,put_the_wine_bottle_on_top_of_the_cabinet,demo_36,104,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+239,put_the_wine_bottle_on_top_of_the_cabinet,demo_36,104,wine bottle,put the wine bottle on the rack,the rack,the stove,trained,train,,,,,,,,
+240,put_the_bowl_on_the_plate,demo_4,31,bowl,put the bowl on the plate,the plate,the plate,trained,test,the plate,the plate,the plate,the plate,the stove,the rack,the plate,the plate
+241,put_the_bowl_on_the_plate,demo_4,31,bowl,put the bowl on the stove,the stove,the stove,trained,test,the stove,the stove,the stove,the stove,the stove,the stove,the stove,the stove
+242,put_the_bowl_on_the_plate,demo_4,31,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,the stove,the rack,top of the cabinet,top of the cabinet
+243,put_the_bowl_on_the_plate,demo_4,31,bowl,put the bowl on the rack,the rack,the stove,novel,test,the stove,the rack,the rack,the rack,the stove,the rack,the rack,the rack
+244,put_the_bowl_on_the_plate,demo_4,31,wine bottle,put the wine bottle on the plate,the plate,the plate,novel,test,the rack,the plate,the rack,the plate,the stove,the rack,the rack,the rack
+245,put_the_bowl_on_the_plate,demo_4,31,wine bottle,put the wine bottle on the stove,the stove,the stove,novel,test,the rack,the rack,the rack,the rack,the stove,the rack,the rack,the rack
+246,put_the_bowl_on_the_plate,demo_4,31,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,the stove,the rack,top of the cabinet,top of the cabinet
+247,put_the_bowl_on_the_plate,demo_4,31,wine bottle,put the wine bottle on the rack,the rack,top of the cabinet,trained,test,the rack,the rack,the rack,the rack,the stove,the rack,the rack,the rack
+248,put_the_bowl_on_the_stove,demo_4,39,bowl,put the bowl on the plate,the plate,the plate,trained,train,,,,,,,,
+249,put_the_bowl_on_the_stove,demo_4,39,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+250,put_the_bowl_on_the_stove,demo_4,39,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+251,put_the_bowl_on_the_stove,demo_4,39,bowl,put the bowl on the rack,the rack,the stove,novel,unused_train_episode_novel,,,,,,,,
+252,put_the_bowl_on_the_stove,demo_4,39,wine bottle,put the wine bottle on the plate,the plate,the plate,novel,unused_train_episode_novel,,,,,,,,
+253,put_the_bowl_on_the_stove,demo_4,39,wine bottle,put the wine bottle on the stove,the stove,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+254,put_the_bowl_on_the_stove,demo_4,39,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+255,put_the_bowl_on_the_stove,demo_4,39,wine bottle,put the wine bottle on the rack,the rack,the rack,trained,train,,,,,,,,
+256,put_the_bowl_on_top_of_the_cabinet,demo_4,28,bowl,put the bowl on the plate,the plate,the plate,trained,test,the plate,the plate,the plate,the plate,the plate,the plate,the plate,the plate
+257,put_the_bowl_on_top_of_the_cabinet,demo_4,28,bowl,put the bowl on the stove,the stove,the stove,trained,test,the stove,the stove,the stove,the stove,the plate,top of the cabinet,top of the cabinet,the stove
+258,put_the_bowl_on_top_of_the_cabinet,demo_4,28,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet
+259,put_the_bowl_on_top_of_the_cabinet,demo_4,28,bowl,put the bowl on the rack,the rack,the stove,novel,test,the stove,the rack,the rack,the rack,the plate,top of the cabinet,top of the cabinet,the plate
+260,put_the_bowl_on_top_of_the_cabinet,demo_4,28,wine bottle,put the wine bottle on the plate,the plate,the plate,novel,test,the plate,the plate,the plate,the plate,the plate,the plate,top of the cabinet,the plate
+261,put_the_bowl_on_top_of_the_cabinet,demo_4,28,wine bottle,put the wine bottle on the stove,the stove,top of the cabinet,novel,test,the rack,the rack,the rack,the rack,the rack,top of the cabinet,top of the cabinet,top of the cabinet
+262,put_the_bowl_on_top_of_the_cabinet,demo_4,28,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet
+263,put_the_bowl_on_top_of_the_cabinet,demo_4,28,wine bottle,put the wine bottle on the rack,the rack,top of the cabinet,trained,test,the rack,the rack,the rack,the rack,the rack,top of the cabinet,top of the cabinet,the rack
+264,put_the_wine_bottle_on_the_rack,demo_4,67,bowl,put the bowl on the plate,the plate,top of the cabinet,trained,train,,,,,,,,
+265,put_the_wine_bottle_on_the_rack,demo_4,67,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+266,put_the_wine_bottle_on_the_rack,demo_4,67,bowl,put the bowl on top of the cabinet,top of the cabinet,the rack,trained,train,,,,,,,,
+267,put_the_wine_bottle_on_the_rack,demo_4,67,bowl,put the bowl on the rack,the rack,the rack,novel,unused_train_episode_novel,,,,,,,,
+268,put_the_wine_bottle_on_the_rack,demo_4,67,wine bottle,put the wine bottle on the plate,the plate,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+269,put_the_wine_bottle_on_the_rack,demo_4,67,wine bottle,put the wine bottle on the stove,the stove,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+270,put_the_wine_bottle_on_the_rack,demo_4,67,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+271,put_the_wine_bottle_on_the_rack,demo_4,67,wine bottle,put the wine bottle on the rack,the rack,the rack,trained,train,,,,,,,,
+272,put_the_wine_bottle_on_top_of_the_cabinet,demo_4,33,bowl,put the bowl on the plate,the plate,the plate,trained,train,,,,,,,,
+273,put_the_wine_bottle_on_top_of_the_cabinet,demo_4,33,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+274,put_the_wine_bottle_on_top_of_the_cabinet,demo_4,33,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+275,put_the_wine_bottle_on_top_of_the_cabinet,demo_4,33,bowl,put the bowl on the rack,the rack,the plate,novel,unused_train_episode_novel,,,,,,,,
+276,put_the_wine_bottle_on_top_of_the_cabinet,demo_4,33,wine bottle,put the wine bottle on the plate,the plate,the plate,novel,unused_train_episode_novel,,,,,,,,
+277,put_the_wine_bottle_on_top_of_the_cabinet,demo_4,33,wine bottle,put the wine bottle on the stove,the stove,the plate,novel,unused_train_episode_novel,,,,,,,,
+278,put_the_wine_bottle_on_top_of_the_cabinet,demo_4,33,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+279,put_the_wine_bottle_on_top_of_the_cabinet,demo_4,33,wine bottle,put the wine bottle on the rack,the rack,top of the cabinet,trained,train,,,,,,,,
+280,put_the_bowl_on_the_plate,demo_4,79,bowl,put the bowl on the plate,the plate,the plate,trained,test,the plate,the plate,the plate,the plate,the plate,the plate,the plate,the plate
+281,put_the_bowl_on_the_plate,demo_4,79,bowl,put the bowl on the stove,the stove,the stove,trained,test,the stove,the stove,the stove,the stove,the plate,the stove,the stove,the stove
+282,put_the_bowl_on_the_plate,demo_4,79,bowl,put the bowl on top of the cabinet,top of the cabinet,the plate,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,the plate,the stove,top of the cabinet,top of the cabinet
+283,put_the_bowl_on_the_plate,demo_4,79,bowl,put the bowl on the rack,the rack,the plate,novel,test,the stove,the rack,the rack,top of the cabinet,the plate,the stove,the stove,top of the cabinet
+284,put_the_bowl_on_the_plate,demo_4,79,wine bottle,put the wine bottle on the plate,the plate,top of the cabinet,novel,test,the rack,the plate,the plate,the plate,the plate,the plate,the plate,the plate
+285,put_the_bowl_on_the_plate,demo_4,79,wine bottle,put the wine bottle on the stove,the stove,the stove,novel,test,the rack,the stove,the stove,the rack,the plate,the stove,the stove,top of the cabinet
+286,put_the_bowl_on_the_plate,demo_4,79,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,the plate,the stove,top of the cabinet,top of the cabinet
+287,put_the_bowl_on_the_plate,demo_4,79,wine bottle,put the wine bottle on the rack,the rack,the plate,trained,test,the rack,the rack,the rack,the rack,the plate,the stove,the stove,top of the cabinet
+288,put_the_bowl_on_the_stove,demo_4,103,bowl,put the bowl on the plate,the plate,the plate,trained,train,,,,,,,,
+289,put_the_bowl_on_the_stove,demo_4,103,bowl,put the bowl on the stove,the stove,top of the cabinet,trained,train,,,,,,,,
+290,put_the_bowl_on_the_stove,demo_4,103,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+291,put_the_bowl_on_the_stove,demo_4,103,bowl,put the bowl on the rack,the rack,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+292,put_the_bowl_on_the_stove,demo_4,103,wine bottle,put the wine bottle on the plate,the plate,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+293,put_the_bowl_on_the_stove,demo_4,103,wine bottle,put the wine bottle on the stove,the stove,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+294,put_the_bowl_on_the_stove,demo_4,103,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+295,put_the_bowl_on_the_stove,demo_4,103,wine bottle,put the wine bottle on the rack,the rack,top of the cabinet,trained,train,,,,,,,,
+296,put_the_bowl_on_top_of_the_cabinet,demo_4,85,bowl,put the bowl on the plate,the plate,top of the cabinet,trained,test,the plate,the plate,the plate,the plate,the plate,the plate,the plate,the plate
+297,put_the_bowl_on_top_of_the_cabinet,demo_4,85,bowl,put the bowl on the stove,the stove,the stove,trained,test,the stove,the stove,the stove,the stove,the plate,the rack,the plate,the rack
+298,put_the_bowl_on_top_of_the_cabinet,demo_4,85,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,the plate,top of the cabinet,top of the cabinet,top of the cabinet
+299,put_the_bowl_on_top_of_the_cabinet,demo_4,85,bowl,put the bowl on the rack,the rack,the stove,novel,test,the stove,the plate,the rack,the stove,the plate,the rack,the rack,the rack
+300,put_the_bowl_on_top_of_the_cabinet,demo_4,85,wine bottle,put the wine bottle on the plate,the plate,top of the cabinet,novel,test,the plate,the plate,the plate,the plate,the plate,the rack,the plate,the rack
+301,put_the_bowl_on_top_of_the_cabinet,demo_4,85,wine bottle,put the wine bottle on the stove,the stove,the stove,novel,test,the rack,the stove,the stove,the stove,the plate,the rack,the rack,the rack
+302,put_the_bowl_on_top_of_the_cabinet,demo_4,85,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,the plate,the rack,top of the cabinet,top of the cabinet
+303,put_the_bowl_on_top_of_the_cabinet,demo_4,85,wine bottle,put the wine bottle on the rack,the rack,top of the cabinet,trained,test,the rack,the rack,the rack,the rack,the plate,the rack,the rack,the rack
+304,put_the_wine_bottle_on_the_rack,demo_4,157,bowl,put the bowl on the plate,the plate,top of the cabinet,trained,train,,,,,,,,
+305,put_the_wine_bottle_on_the_rack,demo_4,157,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+306,put_the_wine_bottle_on_the_rack,demo_4,157,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+307,put_the_wine_bottle_on_the_rack,demo_4,157,bowl,put the bowl on the rack,the rack,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+308,put_the_wine_bottle_on_the_rack,demo_4,157,wine bottle,put the wine bottle on the plate,the plate,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+309,put_the_wine_bottle_on_the_rack,demo_4,157,wine bottle,put the wine bottle on the stove,the stove,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+310,put_the_wine_bottle_on_the_rack,demo_4,157,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+311,put_the_wine_bottle_on_the_rack,demo_4,157,wine bottle,put the wine bottle on the rack,the rack,top of the cabinet,trained,train,,,,,,,,
+312,put_the_wine_bottle_on_top_of_the_cabinet,demo_4,104,bowl,put the bowl on the plate,the plate,the stove,trained,train,,,,,,,,
+313,put_the_wine_bottle_on_top_of_the_cabinet,demo_4,104,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+314,put_the_wine_bottle_on_top_of_the_cabinet,demo_4,104,bowl,put the bowl on top of the cabinet,top of the cabinet,the stove,trained,train,,,,,,,,
+315,put_the_wine_bottle_on_top_of_the_cabinet,demo_4,104,bowl,put the bowl on the rack,the rack,the stove,novel,unused_train_episode_novel,,,,,,,,
+316,put_the_wine_bottle_on_top_of_the_cabinet,demo_4,104,wine bottle,put the wine bottle on the plate,the plate,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+317,put_the_wine_bottle_on_top_of_the_cabinet,demo_4,104,wine bottle,put the wine bottle on the stove,the stove,the stove,novel,unused_train_episode_novel,,,,,,,,
+318,put_the_wine_bottle_on_top_of_the_cabinet,demo_4,104,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+319,put_the_wine_bottle_on_top_of_the_cabinet,demo_4,104,wine bottle,put the wine bottle on the rack,the rack,the stove,trained,train,,,,,,,,
+320,put_the_bowl_on_the_plate,demo_2,36,bowl,put the bowl on the plate,the plate,the plate,trained,test,the plate,the plate,the plate,the plate,top of the cabinet,the plate,the plate,the plate
+321,put_the_bowl_on_the_plate,demo_2,36,bowl,put the bowl on the stove,the stove,the stove,trained,test,the stove,the stove,the stove,the stove,top of the cabinet,the plate,the stove,the stove
+322,put_the_bowl_on_the_plate,demo_2,36,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet
+323,put_the_bowl_on_the_plate,demo_2,36,bowl,put the bowl on the rack,the rack,the stove,novel,test,the stove,the rack,the rack,the rack,top of the cabinet,the rack,the rack,the plate
+324,put_the_bowl_on_the_plate,demo_2,36,wine bottle,put the wine bottle on the plate,the plate,the plate,novel,test,the plate,the rack,the rack,the plate,top of the cabinet,the plate,the plate,the plate
+325,put_the_bowl_on_the_plate,demo_2,36,wine bottle,put the wine bottle on the stove,the stove,the stove,novel,test,the rack,the rack,the rack,the rack,top of the cabinet,the rack,the rack,the stove
+326,put_the_bowl_on_the_plate,demo_2,36,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet
+327,put_the_bowl_on_the_plate,demo_2,36,wine bottle,put the wine bottle on the rack,the rack,the rack,trained,test,the rack,the rack,the rack,the rack,top of the cabinet,the rack,the rack,the rack
+328,put_the_bowl_on_the_stove,demo_2,43,bowl,put the bowl on the plate,the plate,the plate,trained,train,,,,,,,,
+329,put_the_bowl_on_the_stove,demo_2,43,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+330,put_the_bowl_on_the_stove,demo_2,43,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+331,put_the_bowl_on_the_stove,demo_2,43,bowl,put the bowl on the rack,the rack,the stove,novel,unused_train_episode_novel,,,,,,,,
+332,put_the_bowl_on_the_stove,demo_2,43,wine bottle,put the wine bottle on the plate,the plate,the plate,novel,unused_train_episode_novel,,,,,,,,
+333,put_the_bowl_on_the_stove,demo_2,43,wine bottle,put the wine bottle on the stove,the stove,the rack,novel,unused_train_episode_novel,,,,,,,,
+334,put_the_bowl_on_the_stove,demo_2,43,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+335,put_the_bowl_on_the_stove,demo_2,43,wine bottle,put the wine bottle on the rack,the rack,the rack,trained,train,,,,,,,,
+336,put_the_bowl_on_top_of_the_cabinet,demo_2,32,bowl,put the bowl on the plate,the plate,the plate,trained,train,,,,,,,,
+337,put_the_bowl_on_top_of_the_cabinet,demo_2,32,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+338,put_the_bowl_on_top_of_the_cabinet,demo_2,32,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+339,put_the_bowl_on_top_of_the_cabinet,demo_2,32,bowl,put the bowl on the rack,the rack,the stove,novel,unused_train_episode_novel,,,,,,,,
+340,put_the_bowl_on_top_of_the_cabinet,demo_2,32,wine bottle,put the wine bottle on the plate,the plate,the plate,novel,unused_train_episode_novel,,,,,,,,
+341,put_the_bowl_on_top_of_the_cabinet,demo_2,32,wine bottle,put the wine bottle on the stove,the stove,the stove,novel,unused_train_episode_novel,,,,,,,,
+342,put_the_bowl_on_top_of_the_cabinet,demo_2,32,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+343,put_the_bowl_on_top_of_the_cabinet,demo_2,32,wine bottle,put the wine bottle on the rack,the rack,top of the cabinet,trained,train,,,,,,,,
+344,put_the_wine_bottle_on_the_rack,demo_2,79,bowl,put the bowl on the plate,the plate,top of the cabinet,trained,train,,,,,,,,
+345,put_the_wine_bottle_on_the_rack,demo_2,79,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+346,put_the_wine_bottle_on_the_rack,demo_2,79,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+347,put_the_wine_bottle_on_the_rack,demo_2,79,bowl,put the bowl on the rack,the rack,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+348,put_the_wine_bottle_on_the_rack,demo_2,79,wine bottle,put the wine bottle on the plate,the plate,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+349,put_the_wine_bottle_on_the_rack,demo_2,79,wine bottle,put the wine bottle on the stove,the stove,the stove,novel,unused_train_episode_novel,,,,,,,,
+350,put_the_wine_bottle_on_the_rack,demo_2,79,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+351,put_the_wine_bottle_on_the_rack,demo_2,79,wine bottle,put the wine bottle on the rack,the rack,the rack,trained,train,,,,,,,,
+352,put_the_wine_bottle_on_top_of_the_cabinet,demo_2,30,bowl,put the bowl on the plate,the plate,the plate,trained,train,,,,,,,,
+353,put_the_wine_bottle_on_top_of_the_cabinet,demo_2,30,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+354,put_the_wine_bottle_on_top_of_the_cabinet,demo_2,30,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+355,put_the_wine_bottle_on_top_of_the_cabinet,demo_2,30,bowl,put the bowl on the rack,the rack,the plate,novel,unused_train_episode_novel,,,,,,,,
+356,put_the_wine_bottle_on_top_of_the_cabinet,demo_2,30,wine bottle,put the wine bottle on the plate,the plate,the plate,novel,unused_train_episode_novel,,,,,,,,
+357,put_the_wine_bottle_on_top_of_the_cabinet,demo_2,30,wine bottle,put the wine bottle on the stove,the stove,the stove,novel,unused_train_episode_novel,,,,,,,,
+358,put_the_wine_bottle_on_top_of_the_cabinet,demo_2,30,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+359,put_the_wine_bottle_on_top_of_the_cabinet,demo_2,30,wine bottle,put the wine bottle on the rack,the rack,the plate,trained,train,,,,,,,,
+360,put_the_bowl_on_the_plate,demo_2,91,bowl,put the bowl on the plate,the plate,the plate,trained,test,the plate,the plate,the plate,the plate,top of the cabinet,the plate,top of the cabinet,top of the cabinet
+361,put_the_bowl_on_the_plate,demo_2,91,bowl,put the bowl on the stove,the stove,the stove,trained,test,the stove,the stove,the stove,the stove,top of the cabinet,the stove,the stove,the stove
+362,put_the_bowl_on_the_plate,demo_2,91,bowl,put the bowl on top of the cabinet,top of the cabinet,the plate,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet
+363,put_the_bowl_on_the_plate,demo_2,91,bowl,put the bowl on the rack,the rack,the plate,novel,test,the stove,the rack,the rack,the rack,top of the cabinet,the stove,the stove,top of the cabinet
+364,put_the_bowl_on_the_plate,demo_2,91,wine bottle,put the wine bottle on the plate,the plate,the plate,novel,test,the rack,the rack,the plate,the rack,top of the cabinet,the plate,top of the cabinet,top of the cabinet
+365,put_the_bowl_on_the_plate,demo_2,91,wine bottle,put the wine bottle on the stove,the stove,the stove,novel,test,the rack,the rack,the stove,the rack,top of the cabinet,the stove,top of the cabinet,top of the cabinet
+366,put_the_bowl_on_the_plate,demo_2,91,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,the plate,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet
+367,put_the_bowl_on_the_plate,demo_2,91,wine bottle,put the wine bottle on the rack,the rack,the plate,trained,test,the rack,the rack,the rack,the rack,top of the cabinet,the rack,top of the cabinet,top of the cabinet
+368,put_the_bowl_on_the_stove,demo_2,109,bowl,put the bowl on the plate,the plate,the plate,trained,train,,,,,,,,
+369,put_the_bowl_on_the_stove,demo_2,109,bowl,put the bowl on the stove,the stove,top of the cabinet,trained,train,,,,,,,,
+370,put_the_bowl_on_the_stove,demo_2,109,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+371,put_the_bowl_on_the_stove,demo_2,109,bowl,put the bowl on the rack,the rack,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+372,put_the_bowl_on_the_stove,demo_2,109,wine bottle,put the wine bottle on the plate,the plate,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+373,put_the_bowl_on_the_stove,demo_2,109,wine bottle,put the wine bottle on the stove,the stove,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+374,put_the_bowl_on_the_stove,demo_2,109,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+375,put_the_bowl_on_the_stove,demo_2,109,wine bottle,put the wine bottle on the rack,the rack,the rack,trained,train,,,,,,,,
+376,put_the_bowl_on_top_of_the_cabinet,demo_2,98,bowl,put the bowl on the plate,the plate,top of the cabinet,trained,train,,,,,,,,
+377,put_the_bowl_on_top_of_the_cabinet,demo_2,98,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+378,put_the_bowl_on_top_of_the_cabinet,demo_2,98,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+379,put_the_bowl_on_top_of_the_cabinet,demo_2,98,bowl,put the bowl on the rack,the rack,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+380,put_the_bowl_on_top_of_the_cabinet,demo_2,98,wine bottle,put the wine bottle on the plate,the plate,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+381,put_the_bowl_on_top_of_the_cabinet,demo_2,98,wine bottle,put the wine bottle on the stove,the stove,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+382,put_the_bowl_on_top_of_the_cabinet,demo_2,98,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+383,put_the_bowl_on_top_of_the_cabinet,demo_2,98,wine bottle,put the wine bottle on the rack,the rack,top of the cabinet,trained,train,,,,,,,,
+384,put_the_wine_bottle_on_the_rack,demo_2,183,bowl,put the bowl on the plate,the plate,the plate,trained,train,,,,,,,,
+385,put_the_wine_bottle_on_the_rack,demo_2,183,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+386,put_the_wine_bottle_on_the_rack,demo_2,183,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+387,put_the_wine_bottle_on_the_rack,demo_2,183,bowl,put the bowl on the rack,the rack,the plate,novel,unused_train_episode_novel,,,,,,,,
+388,put_the_wine_bottle_on_the_rack,demo_2,183,wine bottle,put the wine bottle on the plate,the plate,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+389,put_the_wine_bottle_on_the_rack,demo_2,183,wine bottle,put the wine bottle on the stove,the stove,the stove,novel,unused_train_episode_novel,,,,,,,,
+390,put_the_wine_bottle_on_the_rack,demo_2,183,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+391,put_the_wine_bottle_on_the_rack,demo_2,183,wine bottle,put the wine bottle on the rack,the rack,top of the cabinet,trained,train,,,,,,,,
+392,put_the_wine_bottle_on_top_of_the_cabinet,demo_2,86,bowl,put the bowl on the plate,the plate,the stove,trained,train,,,,,,,,
+393,put_the_wine_bottle_on_top_of_the_cabinet,demo_2,86,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+394,put_the_wine_bottle_on_top_of_the_cabinet,demo_2,86,bowl,put the bowl on top of the cabinet,top of the cabinet,the stove,trained,train,,,,,,,,
+395,put_the_wine_bottle_on_top_of_the_cabinet,demo_2,86,bowl,put the bowl on the rack,the rack,the stove,novel,unused_train_episode_novel,,,,,,,,
+396,put_the_wine_bottle_on_top_of_the_cabinet,demo_2,86,wine bottle,put the wine bottle on the plate,the plate,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+397,put_the_wine_bottle_on_top_of_the_cabinet,demo_2,86,wine bottle,put the wine bottle on the stove,the stove,the stove,novel,unused_train_episode_novel,,,,,,,,
+398,put_the_wine_bottle_on_top_of_the_cabinet,demo_2,86,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,the stove,trained,train,,,,,,,,
+399,put_the_wine_bottle_on_top_of_the_cabinet,demo_2,86,wine bottle,put the wine bottle on the rack,the rack,the plate,trained,train,,,,,,,,
+400,put_the_bowl_on_the_plate,demo_3,33,bowl,put the bowl on the plate,the plate,the plate,trained,train,,,,,,,,
+401,put_the_bowl_on_the_plate,demo_3,33,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+402,put_the_bowl_on_the_plate,demo_3,33,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+403,put_the_bowl_on_the_plate,demo_3,33,bowl,put the bowl on the rack,the rack,the stove,novel,unused_train_episode_novel,,,,,,,,
+404,put_the_bowl_on_the_plate,demo_3,33,wine bottle,put the wine bottle on the plate,the plate,the plate,novel,unused_train_episode_novel,,,,,,,,
+405,put_the_bowl_on_the_plate,demo_3,33,wine bottle,put the wine bottle on the stove,the stove,the stove,novel,unused_train_episode_novel,,,,,,,,
+406,put_the_bowl_on_the_plate,demo_3,33,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+407,put_the_bowl_on_the_plate,demo_3,33,wine bottle,put the wine bottle on the rack,the rack,the rack,trained,train,,,,,,,,
+408,put_the_bowl_on_the_stove,demo_3,36,bowl,put the bowl on the plate,the plate,the plate,trained,test,the plate,the plate,the plate,the plate,top of the cabinet,the plate,the plate,the plate
+409,put_the_bowl_on_the_stove,demo_3,36,bowl,put the bowl on the stove,the stove,the stove,trained,test,the stove,the stove,the stove,the stove,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet
+410,put_the_bowl_on_the_stove,demo_3,36,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet
+411,put_the_bowl_on_the_stove,demo_3,36,bowl,put the bowl on the rack,the rack,the stove,novel,test,the stove,the rack,the rack,the rack,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet
+412,put_the_bowl_on_the_stove,demo_3,36,wine bottle,put the wine bottle on the plate,the plate,the plate,novel,test,the plate,the plate,the plate,the plate,top of the cabinet,top of the cabinet,the plate,top of the cabinet
+413,put_the_bowl_on_the_stove,demo_3,36,wine bottle,put the wine bottle on the stove,the stove,the stove,novel,test,the rack,the rack,the rack,the rack,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet
+414,put_the_bowl_on_the_stove,demo_3,36,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet
+415,put_the_bowl_on_the_stove,demo_3,36,wine bottle,put the wine bottle on the rack,the rack,top of the cabinet,trained,test,the rack,the rack,the rack,the rack,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet
+416,put_the_bowl_on_top_of_the_cabinet,demo_3,41,bowl,put the bowl on the plate,the plate,the plate,trained,test,the plate,the plate,the plate,the plate,top of the cabinet,the plate,the plate,the plate
+417,put_the_bowl_on_top_of_the_cabinet,demo_3,41,bowl,put the bowl on the stove,the stove,the stove,trained,test,the stove,the stove,the stove,the stove,top of the cabinet,the plate,the stove,the stove
+418,put_the_bowl_on_top_of_the_cabinet,demo_3,41,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,the plate,top of the cabinet,top of the cabinet
+419,put_the_bowl_on_top_of_the_cabinet,demo_3,41,bowl,put the bowl on the rack,the rack,the stove,novel,test,the stove,the rack,the rack,the rack,top of the cabinet,the rack,the rack,the rack
+420,put_the_bowl_on_top_of_the_cabinet,demo_3,41,wine bottle,put the wine bottle on the plate,the plate,the plate,novel,test,the rack,the plate,the rack,the plate,top of the cabinet,the plate,the rack,the plate
+421,put_the_bowl_on_top_of_the_cabinet,demo_3,41,wine bottle,put the wine bottle on the stove,the stove,the stove,novel,test,the rack,the rack,the rack,the rack,top of the cabinet,the rack,the rack,the rack
+422,put_the_bowl_on_top_of_the_cabinet,demo_3,41,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,the rack,top of the cabinet,top of the cabinet
+423,put_the_bowl_on_top_of_the_cabinet,demo_3,41,wine bottle,put the wine bottle on the rack,the rack,the rack,trained,test,the rack,the rack,the rack,the rack,top of the cabinet,the rack,the rack,the rack
+424,put_the_wine_bottle_on_the_rack,demo_3,82,bowl,put the bowl on the plate,the plate,top of the cabinet,trained,train,,,,,,,,
+425,put_the_wine_bottle_on_the_rack,demo_3,82,bowl,put the bowl on the stove,the stove,top of the cabinet,trained,train,,,,,,,,
+426,put_the_wine_bottle_on_the_rack,demo_3,82,bowl,put the bowl on top of the cabinet,top of the cabinet,the rack,trained,train,,,,,,,,
+427,put_the_wine_bottle_on_the_rack,demo_3,82,bowl,put the bowl on the rack,the rack,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+428,put_the_wine_bottle_on_the_rack,demo_3,82,wine bottle,put the wine bottle on the plate,the plate,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+429,put_the_wine_bottle_on_the_rack,demo_3,82,wine bottle,put the wine bottle on the stove,the stove,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+430,put_the_wine_bottle_on_the_rack,demo_3,82,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+431,put_the_wine_bottle_on_the_rack,demo_3,82,wine bottle,put the wine bottle on the rack,the rack,the rack,trained,train,,,,,,,,
+432,put_the_wine_bottle_on_top_of_the_cabinet,demo_3,31,bowl,put the bowl on the plate,the plate,the plate,trained,test,the plate,the plate,the plate,the plate,top of the cabinet,the plate,the plate,the plate
+433,put_the_wine_bottle_on_top_of_the_cabinet,demo_3,31,bowl,put the bowl on the stove,the stove,the stove,trained,test,the stove,the stove,the stove,the stove,top of the cabinet,the plate,the plate,the stove
+434,put_the_wine_bottle_on_top_of_the_cabinet,demo_3,31,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet
+435,put_the_wine_bottle_on_top_of_the_cabinet,demo_3,31,bowl,put the bowl on the rack,the rack,the stove,novel,test,the stove,the rack,the plate,the stove,top of the cabinet,the plate,the plate,the rack
+436,put_the_wine_bottle_on_top_of_the_cabinet,demo_3,31,wine bottle,put the wine bottle on the plate,the plate,the plate,novel,test,the rack,the plate,the plate,the plate,top of the cabinet,the plate,the plate,the plate
+437,put_the_wine_bottle_on_top_of_the_cabinet,demo_3,31,wine bottle,put the wine bottle on the stove,the stove,the stove,novel,test,the rack,the rack,the stove,the rack,top of the cabinet,the rack,the rack,the rack
+438,put_the_wine_bottle_on_top_of_the_cabinet,demo_3,31,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet
+439,put_the_wine_bottle_on_top_of_the_cabinet,demo_3,31,wine bottle,put the wine bottle on the rack,the rack,top of the cabinet,trained,test,the rack,the rack,the rack,the rack,top of the cabinet,the rack,the rack,the rack
+440,put_the_bowl_on_the_plate,demo_3,93,bowl,put the bowl on the plate,the plate,top of the cabinet,trained,train,,,,,,,,
+441,put_the_bowl_on_the_plate,demo_3,93,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+442,put_the_bowl_on_the_plate,demo_3,93,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+443,put_the_bowl_on_the_plate,demo_3,93,bowl,put the bowl on the rack,the rack,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+444,put_the_bowl_on_the_plate,demo_3,93,wine bottle,put the wine bottle on the plate,the plate,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+445,put_the_bowl_on_the_plate,demo_3,93,wine bottle,put the wine bottle on the stove,the stove,the stove,novel,unused_train_episode_novel,,,,,,,,
+446,put_the_bowl_on_the_plate,demo_3,93,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+447,put_the_bowl_on_the_plate,demo_3,93,wine bottle,put the wine bottle on the rack,the rack,top of the cabinet,trained,train,,,,,,,,
+448,put_the_bowl_on_the_stove,demo_3,96,bowl,put the bowl on the plate,the plate,the plate,trained,test,the plate,the plate,the plate,the plate,the plate,top of the cabinet,the plate,the plate
+449,put_the_bowl_on_the_stove,demo_3,96,bowl,put the bowl on the stove,the stove,top of the cabinet,trained,test,the stove,the stove,the stove,the stove,the plate,the stove,the stove,the stove
+450,put_the_bowl_on_the_stove,demo_3,96,bowl,put the bowl on top of the cabinet,top of the cabinet,top of the cabinet,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet
+451,put_the_bowl_on_the_stove,demo_3,96,bowl,put the bowl on the rack,the rack,top of the cabinet,novel,test,the stove,the plate,the rack,the rack,the plate,top of the cabinet,the stove,the stove
+452,put_the_bowl_on_the_stove,demo_3,96,wine bottle,put the wine bottle on the plate,the plate,the plate,novel,test,the rack,the plate,the plate,the plate,the plate,top of the cabinet,the plate,the plate
+453,put_the_bowl_on_the_stove,demo_3,96,wine bottle,put the wine bottle on the stove,the stove,top of the cabinet,novel,test,the rack,the rack,the stove,the stove,the plate,top of the cabinet,the stove,the stove
+454,put_the_bowl_on_the_stove,demo_3,96,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet
+455,put_the_bowl_on_the_stove,demo_3,96,wine bottle,put the wine bottle on the rack,the rack,top of the cabinet,trained,test,the rack,the rack,the rack,the rack,the plate,top of the cabinet,the rack,the rack
+456,put_the_bowl_on_top_of_the_cabinet,demo_3,122,bowl,put the bowl on the plate,the plate,the plate,trained,test,the plate,the plate,the plate,the plate,the stove,the rack,the plate,the plate
+457,put_the_bowl_on_top_of_the_cabinet,demo_3,122,bowl,put the bowl on the stove,the stove,the stove,trained,test,the stove,the stove,the stove,the stove,the stove,the stove,the stove,the stove
+458,put_the_bowl_on_top_of_the_cabinet,demo_3,122,bowl,put the bowl on top of the cabinet,top of the cabinet,the stove,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,the stove,the rack,top of the cabinet,top of the cabinet
+459,put_the_bowl_on_top_of_the_cabinet,demo_3,122,bowl,put the bowl on the rack,the rack,the stove,novel,test,the stove,the rack,the plate,the stove,the stove,the rack,the rack,the rack
+460,put_the_bowl_on_top_of_the_cabinet,demo_3,122,wine bottle,put the wine bottle on the plate,the plate,the plate,novel,test,the plate,the rack,the plate,the plate,the stove,the rack,the rack,the plate
+461,put_the_bowl_on_top_of_the_cabinet,demo_3,122,wine bottle,put the wine bottle on the stove,the stove,the stove,novel,test,the rack,the rack,the stove,the rack,the stove,the rack,the rack,the rack
+462,put_the_bowl_on_top_of_the_cabinet,demo_3,122,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,the rack,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,the stove,the rack,top of the cabinet,top of the cabinet
+463,put_the_bowl_on_top_of_the_cabinet,demo_3,122,wine bottle,put the wine bottle on the rack,the rack,the stove,trained,test,the rack,the rack,the rack,the rack,the stove,the rack,the rack,the rack
+464,put_the_wine_bottle_on_the_rack,demo_3,257,bowl,put the bowl on the plate,the plate,the plate,trained,train,,,,,,,,
+465,put_the_wine_bottle_on_the_rack,demo_3,257,bowl,put the bowl on the stove,the stove,the stove,trained,train,,,,,,,,
+466,put_the_wine_bottle_on_the_rack,demo_3,257,bowl,put the bowl on top of the cabinet,top of the cabinet,the rack,trained,train,,,,,,,,
+467,put_the_wine_bottle_on_the_rack,demo_3,257,bowl,put the bowl on the rack,the rack,the stove,novel,unused_train_episode_novel,,,,,,,,
+468,put_the_wine_bottle_on_the_rack,demo_3,257,wine bottle,put the wine bottle on the plate,the plate,top of the cabinet,novel,unused_train_episode_novel,,,,,,,,
+469,put_the_wine_bottle_on_the_rack,demo_3,257,wine bottle,put the wine bottle on the stove,the stove,the stove,novel,unused_train_episode_novel,,,,,,,,
+470,put_the_wine_bottle_on_the_rack,demo_3,257,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,train,,,,,,,,
+471,put_the_wine_bottle_on_the_rack,demo_3,257,wine bottle,put the wine bottle on the rack,the rack,the stove,trained,train,,,,,,,,
+472,put_the_wine_bottle_on_top_of_the_cabinet,demo_3,122,bowl,put the bowl on the plate,the plate,the stove,trained,test,the plate,the plate,the plate,the plate,top of the cabinet,the stove,the stove,the stove
+473,put_the_wine_bottle_on_top_of_the_cabinet,demo_3,122,bowl,put the bowl on the stove,the stove,the stove,trained,test,the stove,the stove,the stove,the stove,top of the cabinet,the stove,the stove,the stove
+474,put_the_wine_bottle_on_top_of_the_cabinet,demo_3,122,bowl,put the bowl on top of the cabinet,top of the cabinet,the stove,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,the stove,the stove,top of the cabinet
+475,put_the_wine_bottle_on_top_of_the_cabinet,demo_3,122,bowl,put the bowl on the rack,the rack,the stove,novel,test,the stove,the rack,the rack,the stove,top of the cabinet,the stove,the stove,the stove
+476,put_the_wine_bottle_on_top_of_the_cabinet,demo_3,122,wine bottle,put the wine bottle on the plate,the plate,top of the cabinet,novel,test,the plate,the rack,the rack,the rack,top of the cabinet,the stove,the stove,the stove
+477,put_the_wine_bottle_on_top_of_the_cabinet,demo_3,122,wine bottle,put the wine bottle on the stove,the stove,the stove,novel,test,the rack,the rack,the rack,the rack,top of the cabinet,the stove,the stove,the stove
+478,put_the_wine_bottle_on_top_of_the_cabinet,demo_3,122,wine bottle,put the wine bottle on top of the cabinet,top of the cabinet,top of the cabinet,trained,test,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,top of the cabinet,the stove,the stove,top of the cabinet
+479,put_the_wine_bottle_on_top_of_the_cabinet,demo_3,122,wine bottle,put the wine bottle on the rack,the rack,the stove,trained,test,the rack,the rack,the rack,the rack,top of the cabinet,the rack,the rack,the rack

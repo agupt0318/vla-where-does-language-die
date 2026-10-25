@@ -1,0 +1,36 @@
+{
+  "cached_model_configs": {
+    "k1000dai/smolvla_libero_finetune": "/Users/agupta/.cache/huggingface/hub/models--k1000dai--smolvla_libero_finetune/snapshots/492ac1c5f1b7808c444fae37b75a84fdeb15e70d/config.json",
+    "HuggingFaceTB/SmolVLM2-500M-Video-Instruct": "/Users/agupta/.cache/huggingface/hub/models--HuggingFaceTB--SmolVLM2-500M-Video-Instruct/snapshots/7b375e1b73b11138ff12fe22c8f2822d8fe03467/config.json"
+  },
+  "versions": {
+    "torch": "2.11.0",
+    "numpy": "2.2.6",
+    "scikit-learn": "1.9.0",
+    "lerobot": "0.6.0",
+    "transformers": "5.5.4",
+    "huggingface_hub": "1.28.0"
+  },
+  "sites": [
+    "vlm.L0.resid_post",
+    "vlm.L4.resid_post",
+    "vlm.L8.resid_post",
+    "vlm.L12.resid_post",
+    "expert.L0.resid_post",
+    "expert.L4.resid_post",
+    "expert.L8.resid_post",
+    "expert.L12.resid_post"
+  ],
+  "activation_occurrence": 0,
+  "prompts": [
+    "put the bowl on the plate",
+    "put the bowl on the stove",
+    "put the bowl on top of the cabinet",
+    "put the bowl on the rack",
+    "put the wine bottle on the plate",
+    "put the wine bottle on the stove",
+    "put the wine bottle on top of the cabinet",
+    "put the wine bottle on the rack"
+  ],
+  "noise_seed": 0
+}

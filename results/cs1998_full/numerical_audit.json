@@ -1,0 +1,133 @@
+{
+  "description": "Independent einsum-based multinomial logistic objective and score verification.",
+  "sites": {
+    "expert.L0.resid_post": {
+      "sklearn_warning_count": 1104,
+      "warning_messages": [
+        "divide by zero encountered in matmul",
+        "invalid value encountered in matmul",
+        "overflow encountered in matmul"
+      ],
+      "coefficients_and_scores_finite": true,
+      "sklearn_iterations": 173,
+      "max_blas_einsum_logit_error": 0.0,
+      "independent_optimizer_success": true,
+      "independent_optimizer_iterations": 137,
+      "all_heldout_predictions_match_independent_optimizer": true,
+      "all_heldout_predictions_match_saved_analysis": true,
+      "n_compared": 144
+    },
+    "expert.L12.resid_post": {
+      "sklearn_warning_count": 618,
+      "warning_messages": [
+        "divide by zero encountered in matmul",
+        "invalid value encountered in matmul",
+        "overflow encountered in matmul"
+      ],
+      "coefficients_and_scores_finite": true,
+      "sklearn_iterations": 97,
+      "max_blas_einsum_logit_error": 0.0,
+      "independent_optimizer_success": true,
+      "independent_optimizer_iterations": 74,
+      "all_heldout_predictions_match_independent_optimizer": true,
+      "all_heldout_predictions_match_saved_analysis": true,
+      "n_compared": 144
+    },
+    "expert.L4.resid_post": {
+      "sklearn_warning_count": 774,
+      "warning_messages": [
+        "divide by zero encountered in matmul",
+        "invalid value encountered in matmul",
+        "overflow encountered in matmul"
+      ],
+      "coefficients_and_scores_finite": true,
+      "sklearn_iterations": 123,
+      "max_blas_einsum_logit_error": 0.0,
+      "independent_optimizer_success": true,
+      "independent_optimizer_iterations": 101,
+      "all_heldout_predictions_match_independent_optimizer": true,
+      "all_heldout_predictions_match_saved_analysis": true,
+      "n_compared": 144
+    },
+    "expert.L8.resid_post": {
+      "sklearn_warning_count": 636,
+      "warning_messages": [
+        "divide by zero encountered in matmul",
+        "invalid value encountered in matmul",
+        "overflow encountered in matmul"
+      ],
+      "coefficients_and_scores_finite": true,
+      "sklearn_iterations": 100,
+      "max_blas_einsum_logit_error": 0.0,
+      "independent_optimizer_success": true,
+      "independent_optimizer_iterations": 86,
+      "all_heldout_predictions_match_independent_optimizer": true,
+      "all_heldout_predictions_match_saved_analysis": true,
+      "n_compared": 144
+    },
+    "vlm.L0.resid_post": {
+      "sklearn_warning_count": 1638,
+      "warning_messages": [
+        "divide by zero encountered in matmul",
+        "invalid value encountered in matmul",
+        "overflow encountered in matmul"
+      ],
+      "coefficients_and_scores_finite": true,
+      "sklearn_iterations": 250,
+      "max_blas_einsum_logit_error": 0.0,
+      "independent_optimizer_success": true,
+      "independent_optimizer_iterations": 219,
+      "all_heldout_predictions_match_independent_optimizer": true,
+      "all_heldout_predictions_match_saved_analysis": true,
+      "n_compared": 144
+    },
+    "vlm.L12.resid_post": {
+      "sklearn_warning_count": 1308,
+      "warning_messages": [
+        "divide by zero encountered in matmul",
+        "invalid value encountered in matmul",
+        "overflow encountered in matmul"
+      ],
+      "coefficients_and_scores_finite": true,
+      "sklearn_iterations": 202,
+      "max_blas_einsum_logit_error": 0.0,
+      "independent_optimizer_success": true,
+      "independent_optimizer_iterations": 167,
+      "all_heldout_predictions_match_independent_optimizer": true,
+      "all_heldout_predictions_match_saved_analysis": true,
+      "n_compared": 144
+    },
+    "vlm.L4.resid_post": {
+      "sklearn_warning_count": 1476,
+      "warning_messages": [
+        "divide by zero encountered in matmul",
+        "invalid value encountered in matmul",
+        "overflow encountered in matmul"
+      ],
+      "coefficients_and_scores_finite": true,
+      "sklearn_iterations": 228,
+      "max_blas_einsum_logit_error": 0.0,
+      "independent_optimizer_success": true,
+      "independent_optimizer_iterations": 189,
+      "all_heldout_predictions_match_independent_optimizer": true,
+      "all_heldout_predictions_match_saved_analysis": true,
+      "n_compared": 144
+    },
+    "vlm.L8.resid_post": {
+      "sklearn_warning_count": 1374,
+      "warning_messages": [
+        "divide by zero encountered in matmul",
+        "invalid value encountered in matmul",
+        "overflow encountered in matmul"
+      ],
+      "coefficients_and_scores_finite": true,
+      "sklearn_iterations": 210,
+      "max_blas_einsum_logit_error": 0.0,
+      "independent_optimizer_success": true,
+      "independent_optimizer_iterations": 176,
+      "all_heldout_predictions_match_independent_optimizer": true,
+      "all_heldout_predictions_match_saved_analysis": true,
+      "n_compared": 144
+    }
+  }
+}

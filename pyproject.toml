@@ -110,6 +110,11 @@ target-version = "py312"
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B"]
 
+# Report generators contain long prose literals; keep the document text intact.
+[tool.ruff.lint.per-file-ignores]
+"scripts/write_course_*.py" = ["E501"]
+"scripts/write_execution_report.py" = ["E501"]
+
 # Typed core: CLAUDE.md §11 requires types + tests for src/interp/ and src/eval/,
 # which is where silent numerical bugs hide.
 [tool.mypy]

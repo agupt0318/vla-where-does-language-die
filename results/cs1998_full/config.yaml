@@ -1,0 +1,16 @@
+run_id: "cs1998_full"
+experiment: "layerwise_execution_destination_probe"
+checkpoint: "k1000dai/smolvla_libero_finetune"
+n_states: 60
+destinations: ["the plate", "the stove", "top of the cabinet", "the rack"]
+uniform_four_class_reference: 0.25
+seed: 0
+anchors: {"the plate": [0.05177321591101755, 0.02598617121908347, 0.968549932205958], "the stove": [-0.23250660959318906, 0.2560819095096693, 0.9933318521404848], "top of the cabinet": [-0.012820469148772188, -0.19122408159163057, 1.22735947248791], "the rack": [-0.1853942575492872, -0.25755863478749297, 1.2055436912208006]}
+resamples: 10000
+torch_threads: 4
+split_unit: "demonstration_episode"
+device: "cpu"
+image_orientation: "rot180"
+state_composition: ["ee_pos", "ee_ori", "gripper_states"]
+platform: "macOS-27.0-arm64-arm-64bit"
+xgboost_version: "3.4.1"

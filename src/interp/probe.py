@@ -100,6 +100,7 @@ def fit_probe(
     y_test: np.ndarray,
     seed: int = 0,
     max_iter: int = 2000,
+    tol: float = 1e-8,
 ) -> float:
     """Multinomial logistic regression accuracy. Regularised, standardised."""
     from sklearn.linear_model import LogisticRegression
@@ -110,9 +111,33 @@ def fit_probe(
     scaler = StandardScaler().fit(x_train)
     # No multi_class kwarg: removed in scikit-learn 1.7+, and multinomial is the default
     # for the lbfgs solver anyway.
-    clf = LogisticRegression(max_iter=max_iter, C=0.1, random_state=seed)
+    clf = LogisticRegression(max_iter=max_iter, C=0.1, random_state=seed, tol=tol)
     clf.fit(scaler.transform(x_train), y_train)
+    if clf.n_iter_.max() >= max_iter:
+        raise RuntimeError("Probe solver reached its iteration limit")
     return float(clf.score(scaler.transform(x_test), y_test))
+
+
+def predict_probe(
+    x_train: np.ndarray,
+    y_train: np.ndarray,
+    x_eval: np.ndarray,
+    seed: int = 0,
+    max_iter: int = 2000,
+    tol: float = 1e-8,
+) -> np.ndarray:
+    """Fit the regularized linear probe and return class predictions for new examples."""
+    from sklearn.linear_model import LogisticRegression
+    from sklearn.preprocessing import StandardScaler
+
+    if len(np.unique(y_train)) < 2 or x_eval.shape[0] == 0:
+        return np.full(x_eval.shape[0], -1, dtype=np.int64)
+    scaler = StandardScaler().fit(x_train)
+    clf = LogisticRegression(max_iter=max_iter, C=0.1, random_state=seed, tol=tol)
+    clf.fit(scaler.transform(x_train), y_train)
+    if clf.n_iter_.max() >= max_iter:
+        raise RuntimeError("Probe solver reached its iteration limit")
+    return np.asarray(clf.predict(scaler.transform(x_eval)), dtype=np.int64)
 
 
 def fit_probe_nonlinear(

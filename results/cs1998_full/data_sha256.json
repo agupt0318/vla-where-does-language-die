@@ -1,0 +1,26 @@
+{
+  "put_the_bowl_on_the_plate_demo.hdf5": {
+    "sha256": "e69528b0cf10dfc59b20698e12ec2affc03f3887309034d3eb74cac3ec929406",
+    "bytes": 468246288
+  },
+  "put_the_bowl_on_the_stove_demo.hdf5": {
+    "sha256": "ff77d3bf0f89a147d423840ecbd842cd63c3c55aeead91f88dbc0917be473e99",
+    "bytes": 509123820
+  },
+  "put_the_bowl_on_top_of_the_cabinet_demo.hdf5": {
+    "sha256": "e14c84ebc820a13ef9a92ca82a7f04bb299f0ee96dfe9cc907bab71aeb2683b2",
+    "bytes": 510414285
+  },
+  "put_the_cream_cheese_in_the_bowl_demo.hdf5": {
+    "sha256": "ee58a7d72c143a71bf1448674e70940ac7781c1d1bb10a1b0c7a5c69b26abbef",
+    "bytes": 535715512
+  },
+  "put_the_wine_bottle_on_the_rack_demo.hdf5": {
+    "sha256": "f9092aa70734fc4083e97fc58c3ba25f87c614d18326182ddc7a455f0ab4da2e",
+    "bytes": 878958730
+  },
+  "put_the_wine_bottle_on_top_of_the_cabinet_demo.hdf5": {
+    "sha256": "7dc087a7596d5cbbe394f681b21a0be434438b0dca73ac430c293fe4c818404a",
+    "bytes": 540179470
+  }
+}

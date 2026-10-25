@@ -45,6 +45,7 @@ not a memorised lookup, and **not** an identified binding mechanism. See
 | the paper as it will be written | [`paper/draft_v1.md`](paper/draft_v1.md) |
 | where we're submitting and by when | [`paper/workshop_targets.md`](paper/workshop_targets.md) |
 | the research plan, scope, and standing rules | [`CLAUDE.md`](CLAUDE.md) |
+| the CS 1998 project extension | [Dedicated course repository](https://github.com/agupt0318/cs1998-vla-project) and [reproduction guide](CS1998_README.md) |
 | the stimulus design and its validity gates | [`src/data/README.md`](src/data/README.md) |
 | to run it yourself | [Setup](#setup) below — CPU only, ~15 min, no admin |
 
@@ -108,6 +109,20 @@ narrative account in [`paper/m0_findings.md`](paper/m0_findings.md) is supersede
 points and carries a banner saying so.
 
 ## Setup for teammates
+
+The layer-wise probe also reports whether its novel-command prediction matches the named
+destination or the destination selected by the policy's predicted motion. This comparison is
+correlational; direction-invalid trials are counted separately.
+
+```bash
+python scripts/run_probe.py --checkpoint k1000dai/smolvla_libero_finetune \
+  --device cpu --n-states 60 --resamples 10000 --cache-activations
+python -m scripts.analyze_execution_probe results/<run_id>/activations.npz
+python -m scripts.plot_execution_probe results/<run_id>/analysis_seed0.json
+```
+
+The run saves destination anchors, paired state-clustered intervals, and per-site metrics
+under `results/<run_id>/`.
 
 **No GPU, no admin rights, and no simulator are required.** Everything below runs on a
 laptop CPU. Budget ~5 GB of disk (3.3 GB of LIBERO demos + ~1.8 GB of model weights) and

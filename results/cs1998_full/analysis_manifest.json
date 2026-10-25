@@ -1,0 +1,12 @@
+{
+  "canonical_results": "analysis_seed0.json",
+  "sensitivity_results": [
+    "analysis_seed1.json",
+    "analysis_seed2.json",
+    "analysis_seed3.json",
+    "analysis_seed4.json"
+  ],
+  "legacy_results": "metrics.json contains the original run_probe analysis with its own split; course claims use analysis_seed*.json only",
+  "model_inference_reused": true,
+  "probe_tolerance": 1e-08
+}

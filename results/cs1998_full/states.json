@@ -1,0 +1,302 @@
+[
+  {
+    "task": "put_the_bowl_on_the_plate",
+    "demo": "demo_18",
+    "t": 34
+  },
+  {
+    "task": "put_the_bowl_on_the_stove",
+    "demo": "demo_18",
+    "t": 43
+  },
+  {
+    "task": "put_the_bowl_on_top_of_the_cabinet",
+    "demo": "demo_18",
+    "t": 32
+  },
+  {
+    "task": "put_the_wine_bottle_on_the_rack",
+    "demo": "demo_18",
+    "t": 92
+  },
+  {
+    "task": "put_the_wine_bottle_on_top_of_the_cabinet",
+    "demo": "demo_18",
+    "t": 47
+  },
+  {
+    "task": "put_the_bowl_on_the_plate",
+    "demo": "demo_18",
+    "t": 92
+  },
+  {
+    "task": "put_the_bowl_on_the_stove",
+    "demo": "demo_18",
+    "t": 103
+  },
+  {
+    "task": "put_the_bowl_on_top_of_the_cabinet",
+    "demo": "demo_18",
+    "t": 104
+  },
+  {
+    "task": "put_the_wine_bottle_on_the_rack",
+    "demo": "demo_18",
+    "t": 183
+  },
+  {
+    "task": "put_the_wine_bottle_on_top_of_the_cabinet",
+    "demo": "demo_18",
+    "t": 128
+  },
+  {
+    "task": "put_the_bowl_on_the_plate",
+    "demo": "demo_23",
+    "t": 49
+  },
+  {
+    "task": "put_the_bowl_on_the_stove",
+    "demo": "demo_23",
+    "t": 42
+  },
+  {
+    "task": "put_the_bowl_on_top_of_the_cabinet",
+    "demo": "demo_23",
+    "t": 29
+  },
+  {
+    "task": "put_the_wine_bottle_on_the_rack",
+    "demo": "demo_23",
+    "t": 110
+  },
+  {
+    "task": "put_the_wine_bottle_on_top_of_the_cabinet",
+    "demo": "demo_23",
+    "t": 49
+  },
+  {
+    "task": "put_the_bowl_on_the_plate",
+    "demo": "demo_23",
+    "t": 106
+  },
+  {
+    "task": "put_the_bowl_on_the_stove",
+    "demo": "demo_23",
+    "t": 99
+  },
+  {
+    "task": "put_the_bowl_on_top_of_the_cabinet",
+    "demo": "demo_23",
+    "t": 90
+  },
+  {
+    "task": "put_the_wine_bottle_on_the_rack",
+    "demo": "demo_23",
+    "t": 203
+  },
+  {
+    "task": "put_the_wine_bottle_on_top_of_the_cabinet",
+    "demo": "demo_23",
+    "t": 119
+  },
+  {
+    "task": "put_the_bowl_on_the_plate",
+    "demo": "demo_36",
+    "t": 32
+  },
+  {
+    "task": "put_the_bowl_on_the_stove",
+    "demo": "demo_36",
+    "t": 42
+  },
+  {
+    "task": "put_the_bowl_on_top_of_the_cabinet",
+    "demo": "demo_36",
+    "t": 27
+  },
+  {
+    "task": "put_the_wine_bottle_on_the_rack",
+    "demo": "demo_36",
+    "t": 69
+  },
+  {
+    "task": "put_the_wine_bottle_on_top_of_the_cabinet",
+    "demo": "demo_36",
+    "t": 37
+  },
+  {
+    "task": "put_the_bowl_on_the_plate",
+    "demo": "demo_36",
+    "t": 78
+  },
+  {
+    "task": "put_the_bowl_on_the_stove",
+    "demo": "demo_36",
+    "t": 98
+  },
+  {
+    "task": "put_the_bowl_on_top_of_the_cabinet",
+    "demo": "demo_36",
+    "t": 96
+  },
+  {
+    "task": "put_the_wine_bottle_on_the_rack",
+    "demo": "demo_36",
+    "t": 152
+  },
+  {
+    "task": "put_the_wine_bottle_on_top_of_the_cabinet",
+    "demo": "demo_36",
+    "t": 104
+  },
+  {
+    "task": "put_the_bowl_on_the_plate",
+    "demo": "demo_4",
+    "t": 31
+  },
+  {
+    "task": "put_the_bowl_on_the_stove",
+    "demo": "demo_4",
+    "t": 39
+  },
+  {
+    "task": "put_the_bowl_on_top_of_the_cabinet",
+    "demo": "demo_4",
+    "t": 28
+  },
+  {
+    "task": "put_the_wine_bottle_on_the_rack",
+    "demo": "demo_4",
+    "t": 67
+  },
+  {
+    "task": "put_the_wine_bottle_on_top_of_the_cabinet",
+    "demo": "demo_4",
+    "t": 33
+  },
+  {
+    "task": "put_the_bowl_on_the_plate",
+    "demo": "demo_4",
+    "t": 79
+  },
+  {
+    "task": "put_the_bowl_on_the_stove",
+    "demo": "demo_4",
+    "t": 103
+  },
+  {
+    "task": "put_the_bowl_on_top_of_the_cabinet",
+    "demo": "demo_4",
+    "t": 85
+  },
+  {
+    "task": "put_the_wine_bottle_on_the_rack",
+    "demo": "demo_4",
+    "t": 157
+  },
+  {
+    "task": "put_the_wine_bottle_on_top_of_the_cabinet",
+    "demo": "demo_4",
+    "t": 104
+  },
+  {
+    "task": "put_the_bowl_on_the_plate",
+    "demo": "demo_2",
+    "t": 36
+  },
+  {
+    "task": "put_the_bowl_on_the_stove",
+    "demo": "demo_2",
+    "t": 43
+  },
+  {
+    "task": "put_the_bowl_on_top_of_the_cabinet",
+    "demo": "demo_2",
+    "t": 32
+  },
+  {
+    "task": "put_the_wine_bottle_on_the_rack",
+    "demo": "demo_2",
+    "t": 79
+  },
+  {
+    "task": "put_the_wine_bottle_on_top_of_the_cabinet",
+    "demo": "demo_2",
+    "t": 30
+  },
+  {
+    "task": "put_the_bowl_on_the_plate",
+    "demo": "demo_2",
+    "t": 91
+  },
+  {
+    "task": "put_the_bowl_on_the_stove",
+    "demo": "demo_2",
+    "t": 109
+  },
+  {
+    "task": "put_the_bowl_on_top_of_the_cabinet",
+    "demo": "demo_2",
+    "t": 98
+  },
+  {
+    "task": "put_the_wine_bottle_on_the_rack",
+    "demo": "demo_2",
+    "t": 183
+  },
+  {
+    "task": "put_the_wine_bottle_on_top_of_the_cabinet",
+    "demo": "demo_2",
+    "t": 86
+  },
+  {
+    "task": "put_the_bowl_on_the_plate",
+    "demo": "demo_3",
+    "t": 33
+  },
+  {
+    "task": "put_the_bowl_on_the_stove",
+    "demo": "demo_3",
+    "t": 36
+  },
+  {
+    "task": "put_the_bowl_on_top_of_the_cabinet",
+    "demo": "demo_3",
+    "t": 41
+  },
+  {
+    "task": "put_the_wine_bottle_on_the_rack",
+    "demo": "demo_3",
+    "t": 82
+  },
+  {
+    "task": "put_the_wine_bottle_on_top_of_the_cabinet",
+    "demo": "demo_3",
+    "t": 31
+  },
+  {
+    "task": "put_the_bowl_on_the_plate",
+    "demo": "demo_3",
+    "t": 93
+  },
+  {
+    "task": "put_the_bowl_on_the_stove",
+    "demo": "demo_3",
+    "t": 96
+  },
+  {
+    "task": "put_the_bowl_on_top_of_the_cabinet",
+    "demo": "demo_3",
+    "t": 122
+  },
+  {
+    "task": "put_the_wine_bottle_on_the_rack",
+    "demo": "demo_3",
+    "t": 257
+  },
+  {
+    "task": "put_the_wine_bottle_on_top_of_the_cabinet",
+    "demo": "demo_3",
+    "t": 122
+  }
+]

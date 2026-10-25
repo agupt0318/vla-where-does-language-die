@@ -1,0 +1,77 @@
+{
+  "initial_tol": 0.0001,
+  "final_tol": 1e-08,
+  "changes_per_site_and_prediction_array": {
+    "0": {
+      "expert.L0.resid_post__null_trained": 2,
+      "expert.L12.resid_post": 1,
+      "expert.L12.resid_post__null": 2,
+      "expert.L12.resid_post__null_trained": 1,
+      "expert.L4.resid_post__null": 1,
+      "expert.L4.resid_post__null_trained": 2,
+      "expert.L8.resid_post": 1,
+      "vlm.L12.resid_post__null": 1,
+      "vlm.L4.resid_post__null": 2,
+      "vlm.L4.resid_post__null_trained": 2,
+      "vlm.L8.resid_post__null_trained": 1
+    },
+    "1": {
+      "expert.L0.resid_post": 1,
+      "expert.L0.resid_post__null_trained": 1,
+      "expert.L12.resid_post": 1,
+      "expert.L12.resid_post__null_trained": 1,
+      "expert.L4.resid_post__null": 2,
+      "expert.L8.resid_post__null_trained": 2,
+      "vlm.L0.resid_post__null_trained": 1,
+      "vlm.L4.resid_post__null": 4,
+      "vlm.L4.resid_post__trained": 1,
+      "vlm.L4.resid_post__null_trained": 5,
+      "vlm.L8.resid_post__null": 1,
+      "vlm.L8.resid_post__null_trained": 1
+    },
+    "2": {
+      "expert.L0.resid_post": 1,
+      "expert.L0.resid_post__null": 1,
+      "expert.L0.resid_post__null_trained": 4,
+      "expert.L12.resid_post__null_trained": 2,
+      "expert.L4.resid_post": 1,
+      "expert.L4.resid_post__null": 1,
+      "expert.L4.resid_post__null_trained": 1,
+      "expert.L8.resid_post": 1,
+      "expert.L8.resid_post__null": 1,
+      "vlm.L12.resid_post__null_trained": 3,
+      "vlm.L4.resid_post__null": 2,
+      "vlm.L8.resid_post__null": 2
+    },
+    "3": {
+      "expert.L0.resid_post__null_trained": 2,
+      "expert.L12.resid_post__null": 2,
+      "expert.L4.resid_post__null": 3,
+      "expert.L8.resid_post": 1,
+      "vlm.L0.resid_post__null": 2,
+      "vlm.L0.resid_post__null_trained": 2,
+      "vlm.L12.resid_post__null": 2,
+      "vlm.L12.resid_post__null_trained": 3,
+      "vlm.L4.resid_post__null": 3,
+      "vlm.L4.resid_post__null_trained": 1
+    },
+    "4": {
+      "expert.L0.resid_post": 1,
+      "expert.L0.resid_post__null": 1,
+      "expert.L0.resid_post__null_trained": 1,
+      "expert.L12.resid_post": 1,
+      "expert.L12.resid_post__null_trained": 1,
+      "expert.L4.resid_post__null": 2,
+      "expert.L4.resid_post__null_trained": 2,
+      "expert.L8.resid_post": 1,
+      "expert.L8.resid_post__null": 1,
+      "expert.L8.resid_post__null_trained": 2,
+      "vlm.L0.resid_post__null": 1,
+      "vlm.L0.resid_post__null_trained": 1,
+      "vlm.L12.resid_post__null": 1,
+      "vlm.L4.resid_post__null_trained": 1,
+      "vlm.L8.resid_post__null": 1,
+      "vlm.L8.resid_post__null_trained": 4
+    }
+  }
+}
