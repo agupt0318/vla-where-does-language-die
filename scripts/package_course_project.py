@@ -22,6 +22,7 @@ def build():
         "pyproject.toml",
         "requirements_cs1998.lock.txt",
         ".gitignore",
+        ".gitattributes",
     ]:
         p = ROOT / name
         if p.exists():
